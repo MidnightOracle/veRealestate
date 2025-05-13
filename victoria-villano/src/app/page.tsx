@@ -98,6 +98,71 @@ export default function Home() {
           Go to nextjs.org →
         </a>
       </footer>
+
+      {/* Luxury Living Image Grid */}
+      <section className="py-16 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Luxury Living in Palm Coast, Florida</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Image 1 */}
+            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
+              <Image
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+                alt="Luxury Florida Home"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            {/* Image 2 */}
+            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
+              <Image
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+                alt="Modern Florida Villa"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            {/* Image 3 */}
+            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
+              <Image
+                src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea"
+                alt="Florida Beach House"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            {/* Image 4 */}
+            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
+              <Image
+                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d"
+                alt="Luxury Florida Estate"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            {/* Image 5 */}
+            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
+              <Image
+                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d"
+                alt="Florida Waterfront Property"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+            {/* Image 6 */}
+            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
+              <Image
+                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3"
+                alt="Florida Luxury Home"
+                fill
+                className="object-cover hover:scale-105 transition-transform duration-300"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Section */}
     </div>
   );
 }
