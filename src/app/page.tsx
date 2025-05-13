@@ -82,13 +82,13 @@ export default function Home() {
                 <Image src="/images/property3.jpg" alt="Luxury Living 3" fill className="object-cover" />
               </div>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                <Image src="/images/agent1.jpg" alt="Luxury Living 4" fill className="object-cover" />
+                <Image src="/images/property4.jpg" alt="Luxury Living 4" fill className="object-cover" />
               </div>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                <Image src="/images/agent2.jpg" alt="Luxury Living 5" fill className="object-cover" />
+                <Image src="/images/property5.jpg" alt="Luxury Living 5" fill className="object-cover" />
               </div>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-                <Image src="/images/hero-beach.jpg" alt="Luxury Living 6" fill className="object-cover" />
+                <Image src="/images/property6.jpg" alt="Luxury Living 6" fill className="object-cover" />
               </div>
             </div>
           </div>
