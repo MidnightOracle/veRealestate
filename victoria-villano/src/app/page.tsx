@@ -99,64 +99,31 @@ export default function Home() {
         </a>
       </footer>
 
-      {/* Luxury Living Image Grid */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Luxury Living in Palm Coast, Florida</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Image 1 */}
-            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
-                alt="Luxury Florida Home"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
+      {/* Luxury Living Image Grid Fold */}
+      <section className="py-24 bg-gradient-to-br from-gray-50 to-white relative">
+        <div className="container">
+          <h2 className="text-4xl font-serif text-center mb-16 text-accent relative">
+            <span className="relative z-10">Luxury Living in Palm Coast, Florida</span>
+            <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-24 h-1 bg-accent"></div>
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <Image src="/images/property1.jpg" alt="Luxury Living 1" fill className="object-cover" />
             </div>
-            {/* Image 2 */}
-            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
-                alt="Modern Florida Villa"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <Image src="/images/property2.jpg" alt="Luxury Living 2" fill className="object-cover" />
             </div>
-            {/* Image 3 */}
-            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea"
-                alt="Florida Beach House"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <Image src="/images/property3.jpg" alt="Luxury Living 3" fill className="object-cover" />
             </div>
-            {/* Image 4 */}
-            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1600585154526-990dced4db0d"
-                alt="Luxury Florida Estate"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <Image src="/images/agent1.jpg" alt="Luxury Living 4" fill className="object-cover" />
             </div>
-            {/* Image 5 */}
-            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d"
-                alt="Florida Waterfront Property"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <Image src="/images/agent2.jpg" alt="Luxury Living 5" fill className="object-cover" />
             </div>
-            {/* Image 6 */}
-            <div className="relative h-80 overflow-hidden rounded-lg shadow-lg">
-              <Image
-                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3"
-                alt="Florida Luxury Home"
-                fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
-              />
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+              <Image src="/images/hero-beach.jpg" alt="Luxury Living 6" fill className="object-cover" />
             </div>
           </div>
         </div>
